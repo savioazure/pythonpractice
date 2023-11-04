@@ -39,6 +39,11 @@ def main():
         new_text += jumper.get(char, char)    
     print(new_text)
 
+#3rd solution  
+# new_text = []
+    # for char in args.text:
+    #     new_text.append(jumper.get(char, char))
+    # print(''.join(new_text))
 
 # --------------------------------------------------
 if __name__ == '__main__':
